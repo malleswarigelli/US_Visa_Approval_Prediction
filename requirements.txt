@@ -1,0 +1,25 @@
+ipykernel # for jupyter notebook
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo # connect with pymongo atlas
+from_root # to connect with root folder
+evidently==0.2.8 # to detect data drift
+dill 
+PyYAML
+neuro_mf
+boto3
+mypy-boto3-s3
+botocore
+fastapi
+uvicorn
+jinja2
+python-multipart
+-e . # for setup.py
