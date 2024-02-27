@@ -1,4 +1,4 @@
-
+'''
 
 from US_Visa.logger import logging
 
@@ -11,4 +11,6 @@ try:
     
 except Exception as e:
     logging.info(e)
-    raise USvisaException(e,sys) from e
+    raise USvisaException(e,sys) from e 
+    
+'''
