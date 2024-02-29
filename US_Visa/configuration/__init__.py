@@ -8,12 +8,12 @@ from US_Visa.constant import DATABASE_NAME, MONGODB_URL_KEY
 import pymongo
 import certifi
 
-ca = certifi.where()
+ca = certifi.where() # takes care of timeout error
 
 class MongoDBClient:
     """
-    Class Name :   export_data_into_feature_store
-    Description :   This method exports the dataframe from mongodb feature store as dataframe 
+    Class Name :   MongoDBClient
+    Description :   This method provides connection to MongoDB client; contains database_name 
     
     Output      :   connection to mongodb database
     On Failure  :   raises an exception
@@ -30,6 +30,6 @@ class MongoDBClient:
             self.client = MongoDBClient.client
             self.database = self.client[database_name]
             self.database_name = database_name
-            logging.info("MongoDB connection succesfull")
+            logging.info("MongoDB connected successfully")
         except Exception as e:
             raise USvisaException(e,sys)
