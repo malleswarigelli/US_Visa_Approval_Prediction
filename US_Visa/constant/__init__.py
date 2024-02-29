@@ -31,5 +31,5 @@ DATA_INGESTION_INGESTED_DIR: str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.2
 
 """
-Data Validation related constant start with DATA_INGESTION VAR NAME
+Data Validation related constant start with DATA_VALIDATION VAR NAME
 """
