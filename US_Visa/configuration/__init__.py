@@ -1,10 +1,10 @@
 import sys
 
-from us_visa.exception import USvisaException
-from us_visa.logger import logging
+from US_Visa.exception import USvisaException
+from US_Visa.logger import logging
 
 import os
-from us_visa.constants import DATABASE_NAME, MONGODB_URL_KEY
+from US_Visa.constant import DATABASE_NAME, MONGODB_URL_KEY
 import pymongo
 import certifi
 
