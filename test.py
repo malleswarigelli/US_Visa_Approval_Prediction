@@ -1,4 +1,4 @@
-from US_Visa.pipeline.training_pipeline import TrainPipeline
 
-pipeline = TrainPipeline()
-pipeline.run_pipeline()
+from US_Visa.logger import logging
+
+logging.info("I am Malleswari")
