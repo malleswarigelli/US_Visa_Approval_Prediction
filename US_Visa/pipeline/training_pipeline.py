@@ -5,16 +5,19 @@ from US_Visa.logger import logging
 from US_Visa.components.data_ingestion import DataIngestion
 from US_Visa.components.data_validation import DataValidation
 from US_Visa.components.data_transformation import DataTransformation
+from US_Visa.components.model_trainer import ModelTrainer
 
 
 from US_Visa.entity.config_entity import (DataIngestionConfig, 
                                           DataValidationConfig, 
-                                          DataTransformationConfig)
+                                          DataTransformationConfig,
+                                          ModelTrainerConfig)
                                           
 
 from US_Visa.entity.artifact_entity import (DataIngestionArtifact, 
                                             DataValidationArtifact, 
-                                            DataTransformationArtifact)
+                                            DataTransformationArtifact,
+                                            ModelTrainerArtifact)
 
 
 
@@ -23,6 +26,7 @@ class TrainPipeline:
         self.data_ingestion_config = DataIngestionConfig()
         self.data_validation_config = DataValidationConfig()
         self.data_transformation_config = DataTransformationConfig()
+        self.model_trainer_config = ModelTrainerConfig()
 
 
     
@@ -83,6 +87,22 @@ class TrainPipeline:
             raise USvisaException(e, sys)   
         
     
+    def start_model_trainer(self, data_transformation_artifact: DataTransformationArtifact) -> ModelTrainerArtifact:
+        """
+        This method of TrainPipeline class is responsible for starting model training
+        """
+        try:
+            model_trainer = ModelTrainer(data_transformation_artifact=data_transformation_artifact,
+                                         model_trainer_config=self.model_trainer_config
+                                         )
+            model_trainer_artifact = model_trainer.initiate_model_trainer()
+            return model_trainer_artifact
+
+        except Exception as e:
+            raise USvisaException(e, sys)
+            
+    
+    
     def run_pipeline(self, ) -> None:
         """
         This method of TrainPipeline class is responsible for running complete pipeline
@@ -92,5 +112,7 @@ class TrainPipeline:
             data_validation_artifact = self.start_data_validation(data_ingestion_artifact=data_ingestion_artifact)
             data_transformation_artifact = self.start_data_transformation(data_ingestion_artifact= data_ingestion_artifact, 
                                                                           data_validation_artifact= data_validation_artifact)
+            model_trainer_artifact = self.start_model_trainer(data_transformation_artifact= data_transformation_artifact)
+            
         except Exception as e:
             raise USvisaException(e, sys)
