@@ -11,7 +11,7 @@ from US_Visa.logger import logging
 from US_Visa.data_access.usvisa_data import USvisaData
 
 class DataIngestion:
-    def __init__(self,data_ingestion_config:DataIngestionConfig=DataIngestionConfig()):
+    def __init__(self, data_ingestion_config:DataIngestionConfig):
         """
         :param data_ingestion_config: configuration for data ingestion (obj of DataIngestionConfig class)
         """

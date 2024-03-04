@@ -82,7 +82,7 @@ class DataValidation:
 
     @staticmethod
     # static method allows to call the method directly (class.method()) instead of requiring to create object/instance
-    def read_data(file_path) -> DataFrame:
+    def read_data(file_path) -> pd.DataFrame:
         """
         Method Name :   read_data
         Description :   This method reads csv file
