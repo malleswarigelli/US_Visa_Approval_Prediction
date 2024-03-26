@@ -1,9 +1,8 @@
 # US_Visa_Approval_Prediction
 
 🔍 Build and deploy End to End ML model to predict US Visa Approval to AWS Ec2 by integrating Docker, CI/CD tool GitHub Actions
-The US Visa Approval Prediction project aims to develop a machine learning model that can accurately predict the approval or rejection of US visa applications. This project adopts a modular coding approach, leveraging various technologies to build an end-to-end solution.
 
-- The US Visa Approval Prediction project utilizes ML to forecast the probability of visa approval for individuals seeking entry into the United States. This model predicts the likelihood of a US visa application being approved based on various factors including demographics, employment history, education, finances, and travel purpose.
+- The US Visa Approval Prediction project aims to develop a machine learning model that can accurately predict the approval or rejection of US visa applications. This project adopts a modular coding approach, leveraging various technologies to build an end-to-end solution.
 - This project aims to provide valuable insights to applicants, immigration authorities, and legal professionals, enabling informed decision-making and optimizing the visa application process.
 
 # Techstack
@@ -76,7 +75,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 
@@ -88,7 +87,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 5. Lauch your docker image in EC2
 
-#Policy:
+# Policy:
 
 1. AmazonEC2ContainerRegistryFullAccess
 
