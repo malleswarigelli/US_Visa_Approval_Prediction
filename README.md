@@ -1,5 +1,29 @@
 # US_Visa_Approval_Prediction
 
+- The US Visa Approval Prediction project utilizes ML to forecast the probability of visa approval for individuals seeking entry into the United States. This model predicts the likelihood of a US visa application being approved based on various factors including demographics, employment history, education, finances, and travel purpose.
+- This project aims to provide valuable insights to applicants, immigration authorities, and legal professionals, enabling informed decision-making and optimizing the visa application process.
+
+# Techstack
+- AWS: Cloud computing platform 
+- AWS S3: Stores the model and dataset
+- AWS ECR (Elastic Container Registry): To host our containerized application
+- AWS EC2 (Elastic Compute Cloud): For scalable and reliable virtual servers
+- GitHub: Our code repository for version control and collaboration
+- GitHub Actions (CI/CD tool): To automate deployment workflows
+- Visual Studio Code: Our integrated development environment (IDE)
+- Python: The programming language used to build the model.
+- FastAPI: A modern, fast (high-performance) web framework for building APIs.
+
+# Workflow
+1) Training pipeline is made to train, evaluate multiple ML classification models, fine tune and select the model giving best metrics, stored the final training mdoel into AWS S3 bucket for making predictions
+2) Prediction pipeline is made to make predictions on new or unseen data user provided/ingest from MongoDB
+3) Deployment: containerize the application using Docker, store docker image in AWS ECR repository for easy deployment and scalability
+- Set up AWS EC3 instance to host our deployed application
+- Leveraged GitHub Actions to automate our deployment workflow. With each code push, the model is retrained, the Docker image is built, stored in ECR and the application is deployed to the EC2 instance.
+4) Built web app with FASTAPI that expose model's prediction functionality.
+
+
+
 # Git commands
 - git add .
 
@@ -12,7 +36,7 @@
 - conda activate visa
 - pip install -r requirements.txt
 
-# Workflow
+# Files to fill for each component workflow
 1. constant
 2. config_entity
 3. artifact_entity
@@ -39,22 +63,11 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
  ```                                                           
 
-# data transformation steps
-
-1. loading train,test data from data_ingestion artifact
-2. calculate age column
-3. apply preprocessing/ transformation (imputation, one hot encoding, ordinal encoding, scaling, handle imbalance data)
-4. drop columns
-5. mapping target feature values (convert categories to numbers)
-6. save preprocessing object (preprocessing.pkl)
-7. save transformed train, test data as np array (train.npy, test.npy)
-
-
 # AWS-CICD-Deployment-with-Github-Actions
 ## 1. Login to AWS console.
 ## 2. Create IAM user for deployment
 
-#with specific access
+# with specific access
 
 1. EC2 access : It is virtual machine
 

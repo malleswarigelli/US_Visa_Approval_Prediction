@@ -5,12 +5,11 @@ from datetime import datetime
 
 TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 
-@dataclass # if use this, you can declare class variables without self keyword; no need to say self.pipeline_name. 
+@dataclass # if you use this, you can declare class variables without using __init__ constructor, self keyword; no need to say self.pipeline_name. 
 class TrainingPipelineConfig:
     pipeline_name: str = PIPELINE_NAME
     artifact_dir: str = os.path.join(ARTIFACT_DIR, TIMESTAMP)
     timestamp: str = TIMESTAMP
-
 
 training_pipeline_config: TrainingPipelineConfig = TrainingPipelineConfig()
 
