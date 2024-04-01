@@ -1,11 +1,12 @@
 # US_Visa_Approval_Prediction
 
-🔍 Build and deploy End to End ML model to predict US Visa Approval to AWS Ec2 by integrating Docker, CI/CD tool GitHub Actions
+🔍 Build End to End ML pipeline to train, predict US Visa Approval and deploy to AWS EC2 by integrating Docker, CI/CD tool: GitHub Actions
 
 - The US Visa Approval Prediction project aims to develop a machine learning model that can accurately predict the approval or rejection of US visa applications. This project adopts a modular coding approach, leveraging various technologies to build an end-to-end solution.
 - This project aims to provide valuable insights to applicants, immigration authorities, and legal professionals, enabling informed decision-making and optimizing the visa application process.
 
 # Techstack
+- Python: The programming language used to build the model.
 - Python libraries: pandas, numpy, matplotlib, plotly, seaborn, scipy, scikit-learn etc
 - Jupyter notebook: EDA, experiment with different algorithms, and fine-tune the model parameters.
 - MongoDB: a noSQL database, to store and manage data
@@ -16,18 +17,16 @@
 - GitHub: Our code repository for version control and collaboration
 - GitHub Actions (CI/CD tool): To automate deployment workflows
 - Visual Studio Code: Our integrated development environment (IDE) for writing modular and scalable code 
-- Python: The programming language used to build the model.
 - FastAPI: A modern, fast (high-performance) web framework for building APIs.
 - Ubuntu: provides a reliable and stable operating system environment for hosting your project's infrastructure, such as EC2 instances or GitHub Action Runners.
-
 By combining these technologies, the US Visa Approval Prediction project aims to develop a reliable and efficient machine learning model that can assist in predicting the outcome of US visa applications, streamlining the visa approval process, and improving decision-making.
 
 # Workflow
-1) Training pipeline is made to train, evaluate multiple ML classification models, fine tune and select the model giving best metrics, stored the final training mdoel into AWS S3 bucket for making predictions
-2) Prediction pipeline is made to make predictions on new or unseen data user provided/ingest from MongoDB
+1) Training pipeline is made to ingest data from MongoDB, validate using Evidently, transform data for feature engineering, train and evaluate multiple ML classification models, fine tune and select the model giving best metrics, stored the final best trained mdoel into AWS S3 bucket for making predictions
+2) Prediction pipeline is made to ingest new or unseen data from user or from MongoDB, transform new data with preprocessing.pkl from training pipeline and make predictions with the best trainined model saved in AWS S3. 
 3) Deployment: containerize the application using Docker, store docker image in AWS ECR repository for easy deployment and scalability
-- Set up AWS EC3 instance to host our deployed application
-- Leveraged GitHub Actions to automate our deployment workflow. With each code push, the model is retrained, the Docker image is built, stored in ECR and the application is deployed to the EC2 instance.
+- Set up AWS EC2 instance to host our deployed application
+- Leveraged GitHub Actions to automate our deployment workflow. With each code push, the model is retrained, the Docker image is built, test, push to AWS ECR, pull image to EC2 and the application runs in EC2 instance.
 4) Built web app with FASTAPI that expose model's prediction functionality.
 
 

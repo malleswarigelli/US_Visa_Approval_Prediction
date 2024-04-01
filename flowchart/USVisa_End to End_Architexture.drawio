@@ -1,4 +1,8 @@
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
 <mxfile host="app.diagrams.net" modified="2024-04-01T13:19:52.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nyX8DMcMWmQPEGgpXUi8" version="24.2.1" type="device">
+=======
+<mxfile host="app.diagrams.net" modified="2024-04-01T12:53:47.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7lLylnmTVBZdJyK-rQEE" version="24.2.1" type="github">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2350" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +23,11 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-57" value="&lt;font size=&quot;1&quot; color=&quot;#ff0000&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Training pipeline&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="179" y="295" width="180" height="30" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=#CC0066;curved=0;" parent="1" source="4ikW2BazAHk21ai5Y3Cd-58" target="4ikW2BazAHk21ai5Y3Cd-76" edge="1">
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ikW2BazAHk21ai5Y3Cd-58" target="4ikW2BazAHk21ai5Y3Cd-76">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-58" value="data ingestion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -28,7 +36,11 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-62" value="model pusher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="703" y="388" width="90" height="30" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.676;exitY=-0.08;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;strokeWidth=3;strokeColor=#CC0066;curved=1;" parent="1" edge="1">
+=======
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.676;exitY=-0.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="764.8399999999999" y="385.6" as="sourcePoint" />
             <mxPoint x="764" y="359" as="targetPoint" />
@@ -40,6 +52,7 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-71" value="push to s3 if model accuracy improved" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="759" y="418" width="150" height="30" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;strokeColor=#FF0080;flowAnimation=1;" parent="1" source="4ikW2BazAHk21ai5Y3Cd-72" target="QrY6Z2bIWhyHrVDeMIcz-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860.63" y="479.54000000000025" as="sourcePoint" />
@@ -52,6 +65,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
+=======
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-72" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="737" y="455" width="62" height="60" as="geometry" />
         </mxCell>
@@ -64,7 +79,11 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-75" value="&lt;font color=&quot;#3333ff&quot;&gt;model.pkl&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="689" y="418" width="60" height="30" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=#CC0066;curved=0;" parent="1" source="4ikW2BazAHk21ai5Y3Cd-76" target="QrY6Z2bIWhyHrVDeMIcz-5" edge="1">
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ikW2BazAHk21ai5Y3Cd-76" target="QrY6Z2bIWhyHrVDeMIcz-5">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="389" />
@@ -74,19 +93,31 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-76" value="data validation" style="text;strokeColor=#82b366;align=center;fillColor=#d5e8d4;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="281.38" y="374" width="96" height="30" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-78" value="" style="endArrow=classic;html=1;rounded=0;jumpSize=2;dashed=1;strokeColor=#00CC00;exitX=0.017;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;strokeWidth=4;curved=1;" parent="1" source="4ikW2BazAHk21ai5Y3Cd-75" edge="1">
+=======
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-78" value="" style="endArrow=classic;html=1;rounded=0;jumpSize=2;dashed=1;strokeColor=#322BFF;exitX=0.017;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="4ikW2BazAHk21ai5Y3Cd-75">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="679" y="425.5" as="sourcePoint" />
             <mxPoint x="389" y="484" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-79" value="" style="endArrow=classic;html=1;rounded=0;jumpSize=2;dashed=1;strokeColor=#00CC00;exitX=-0.217;exitY=0.6;exitDx=0;exitDy=0;entryX=0.867;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;flowAnimation=1;strokeWidth=4;curved=1;" parent="1" edge="1">
+=======
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-79" value="" style="endArrow=classic;html=1;rounded=0;jumpSize=2;dashed=1;strokeColor=#3C26FF;exitX=-0.217;exitY=0.6;exitDx=0;exitDy=0;entryX=0.867;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" edge="1" source="4ikW2BazAHk21ai5Y3Cd-74">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="469.98" y="378" as="sourcePoint" />
             <mxPoint x="350.73" y="484.61" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-82" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;strokeWidth=3;strokeColor=#CC0066;curved=1;" parent="1" edge="1">
+=======
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-82" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="767" y="422" as="sourcePoint" />
             <mxPoint x="767" y="452" as="targetPoint" />
@@ -99,7 +130,11 @@
           <mxGeometry x="478.32" y="488" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-86" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
           <mxGeometry x="366.82" y="550" width="84.49" height="69.28" as="geometry" />
+=======
+          <mxGeometry x="380" y="535" width="98.32" height="80.62" as="geometry" />
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
         </mxCell>
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-88" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=west;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="897" y="371" width="94" height="492" as="geometry" />
@@ -107,7 +142,11 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-89" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;dashed=1;fontColor=none;labelBorderColor=#0D0DFF;noLabel=1;textShadow=1;fillColor=#121AFF;strokeColor=#2212FF;" parent="1" vertex="1">
           <mxGeometry x="36" y="250" width="50" height="290" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeColor=#990000;strokeWidth=4;" parent="1" edge="1">
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="628" as="sourcePoint" />
             <mxPoint x="510" y="628" as="targetPoint" />
@@ -123,7 +162,11 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-93" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/jpeg,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;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="864.36" y="563" width="107.27" height="60.21" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=#990000;curved=0;" parent="1" edge="1">
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="157.76" y="629.0000000000002" as="sourcePoint" />
             <mxPoint x="247.76" y="629.0000000000002" as="targetPoint" />
@@ -148,7 +191,11 @@
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-105" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" parent="1" vertex="1">
           <mxGeometry x="-74" y="455" width="30" height="81.08" as="geometry" />
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-111" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;entryX=-0.08;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;strokeWidth=3;strokeColor=#990000;" parent="1" edge="1">
+=======
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-111" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=-0.08;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-26" y="453" as="sourcePoint" />
             <mxPoint x="101" y="626.7" as="targetPoint" />
@@ -162,7 +209,11 @@
           <mxGeometry x="-117" y="532.36" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-113" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CI/CD pipeline&lt;/font&gt;" style="text;strokeColor=#36393d;align=center;fillColor=#cdeb8b;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
           <mxGeometry x="-30" y="715.71" width="140" height="30" as="geometry" />
+=======
+          <mxGeometry x="-67" y="707.36" width="140" height="30" as="geometry" />
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
         </mxCell>
         <mxCell id="4ikW2BazAHk21ai5Y3Cd-120" value="&lt;b&gt;Github Action&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="243.76" y="655" width="84" height="30" as="geometry" />
@@ -183,6 +234,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=#990000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="693" y="777.9999999999998" as="sourcePoint" />
@@ -251,12 +303,84 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=#CC0066;curved=0;" parent="1" source="QrY6Z2bIWhyHrVDeMIcz-5" target="QrY6Z2bIWhyHrVDeMIcz-8" edge="1">
+=======
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-130" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="601.5" y="560" width="270" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-133" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/jpeg,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCADcANwDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2SiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoorkvibrN5ofhFrjT5zBNJOkRkUfMqnOceh4xn39aAOjvdTstNQPf3lvbK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+VenSxVGt8EkzjqUalP4lYnooozW5kFFFFABRRRQAUUmaXNABVLUrOa+iWOG6NunO/auS345pbjVrK1z5tzHuH8KncfyFZNz4rQZFpAWP96Q4H5CuLE4rDRi41Jfc9fw1OijQrSalCP9fMVPCcI+/dTH6KBSv4TgK/u7mUN23AEVlG51LXJjErM47qvyov1rp7K3/srSwkspkESlmY/nx7V5+GpYXEN8tK0V1Z116leilepeXY4vyWS7EB5cS7OPXdivQq4vQ4GvtZWRhkRkzP8AXt+v8q7SqyWnaE59G9PkLMp3lGPVIKKKK9s80KKKKACiiigAooooAKKKKADFZF/4dtros8P7iU85UfKfqP8ACtejFZVqFOtHlqK6Lp1J03eDscNeaPe2RJeEvGP44/mH+IqiMHkfnXo2KqXWkWV4SZoFLH+JflP5ivEr5H1oy+T/AMz06WZ9Ki+446HUryDHlXUqgdAWyPyNW4/EmoJ9543/AN5B/TFaM/hOM5Nvcuvs67v8Koy+GL9PuGGQez4P6iuN4bMaHw3+TudCrYSrvb5olXxXdD70EJ+mRUg8WSd7RP8Av4f8KzW0TUU62jn/AHWU/wBab/Y+o/8APnL+n+NL6zmS/m+7/gD9hg32+/8A4JpnxZL2tEH1c/4VG/iq7P3YYF/An+tUBo2ok4+xy/iQP61PH4c1FyMxRp/vSD+maar5lPRc33f8AXssHHt94kniHUZBgThB/sIBVKa7uLj/AF08kn+8xIrah8JyE/v7pVHpGuf1P+FaVv4c0+DBaNpmHeU5H5dK0jgMfX/iSsvN/oQ8VhaXwL7kclbW012+y2heQ/7I4H1PSt2x8LEkPfScf88oz/M/4V0aRrGoVFCqOgAwKdivQw+TUaetT3n+ByVsxqT0hp+ZFBbxW0QigjWNB0CisvxJcslklrEC0ty20KvUgdf6Vs0hRSwYgEjocdK9KtS56Tpxdr6fI46dTlmpy1sZ+i6Z/ZtnhsGaQ7pCPXsPwrRoFFVSpxpQUI7Imc3OTlLdhRRRWhIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUYoooATFLRRQAUmKWigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==;" parent="1" vertex="1">
+          <mxGeometry x="603" y="563" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-134" value="aws cloud" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="601.5" y="582.36" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-135" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;configure aws credentials&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="483.67999999999995" y="745" width="98.32" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-136" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" parent="1" vertex="1">
+          <mxGeometry x="516" y="699.71" width="36" height="45.29" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-137" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="622.86" y="649" width="20" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-139" value="Iam" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="593" y="669.28" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-140" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="1" vertex="1">
+          <mxGeometry x="509" y="669.28" width="38" height="21.44" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-142" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecr;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="702" y="601" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-143" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ff0a23&quot;&gt;Build, tag, push docker image to ECR&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="465.14" y="612" width="226.86" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-144" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecr;" parent="1" vertex="1">
+          <mxGeometry x="622.86" y="705.71" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-145" value="create ECR" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="605" y="735.71" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-148" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="433" y="585" as="sourcePoint" />
+            <mxPoint x="483" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-149" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="636" y="775" width="109" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-150" value="&lt;font color=&quot;#ff0a23&quot;&gt;pull docker image to EC2&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="709" y="835" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-151" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" parent="1" vertex="1">
+          <mxGeometry x="597.5" y="863" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-153" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="892" as="sourcePoint" />
+            <mxPoint x="516" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-154" value="open the port: HTTP: 8080" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="421" y="865" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ikW2BazAHk21ai5Y3Cd-155" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;&lt;u&gt;End to End deployment of USVisa prediction application to AWS EC2 using Docker, CI/CD tool GitHub Actions&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="197.66" y="180" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4ikW2BazAHk21ai5Y3Cd-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrY6Z2bIWhyHrVDeMIcz-5" target="QrY6Z2bIWhyHrVDeMIcz-8">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="533" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-5" value="data transformation" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="397" y="325" width="122" height="30" as="geometry" />
         </mxCell>
@@ -267,6 +391,18 @@
           <mxGeometry x="483" y="390" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=#CC0066;curved=0;" parent="1" source="QrY6Z2bIWhyHrVDeMIcz-13" edge="1">
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-5" value="data transformation" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="397" y="325" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrY6Z2bIWhyHrVDeMIcz-8" target="QrY6Z2bIWhyHrVDeMIcz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-8" value="model training" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="483" y="390" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrY6Z2bIWhyHrVDeMIcz-13">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="388" as="targetPoint" />
             <Array as="points">
@@ -275,6 +411,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-13" value="model evaluation" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="609" y="322" width="83" height="30" as="geometry" />
         </mxCell>
@@ -282,11 +419,21 @@
           <mxGeometry x="208" y="479.54" width="198" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=3;strokeColor=#990099;curved=1;" parent="1" edge="1">
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-13" value="model evaluation" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="322" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-17" value="&lt;font size=&quot;1&quot; color=&quot;#ff0000&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Prediction pipeline&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208" y="479.54" width="198" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="409" y="495" as="sourcePoint" />
             <mxPoint x="476" y="495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD:flowchart/USVisa_End to End_Architexture.drawio
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-32" value="ECR image" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="703" y="657.36" width="70" height="50" as="geometry" />
         </mxCell>
@@ -322,6 +469,31 @@
         <mxCell id="QrY6Z2bIWhyHrVDeMIcz-54" value="&lt;font color=&quot;#3333ff&quot;&gt;s3_model.pkl&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="817" y="270" width="60" height="30" as="geometry" />
         </mxCell>
+=======
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-32" value="ECR image" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="703" y="657.36" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.603;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ikW2BazAHk21ai5Y3Cd-88" target="4ikW2BazAHk21ai5Y3Cd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-34" value="&lt;font color=&quot;#ff0a23&quot;&gt;EC2 instance runs the FASTAPI application&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="950" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Web application for user doing predictions&lt;/font&gt;" style="text;align=center;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225.08" y="920" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QrY6Z2bIWhyHrVDeMIcz-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-37" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="271" y="863.62" width="57.17" height="52.77" as="geometry" />
+        </mxCell>
+        <mxCell id="QrY6Z2bIWhyHrVDeMIcz-38" value="user provide data" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="239.38" y="502.36" width="102" height="30" as="geometry" />
+        </mxCell>
+>>>>>>> 9547b876451f371de9bcfe12f704acbc8bee13ef:flowchart/Untitled Diagram.drawio
       </root>
     </mxGraphModel>
   </diagram>
