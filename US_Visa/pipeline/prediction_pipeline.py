@@ -42,20 +42,7 @@ class USvisaData:
 
 
         except Exception as e:
-            raise USvisaException(e, sys) from e
-
-    def get_usvisa_input_data_frame(self)-> DataFrame:
-        """
-        This function returns a DataFrame from USvisaData class input
-        """
-        try:
-            
-            usvisa_input_dict = self.get_usvisa_data_as_dict()
-            return DataFrame(usvisa_input_dict)
-        
-        except Exception as e:
-            raise USvisaException(e, sys) from e
-
+            raise USvisaException(e, sys) from e  
 
     def get_usvisa_data_as_dict(self):
         """
@@ -85,6 +72,18 @@ class USvisaData:
 
         except Exception as e:
             raise USvisaException(e, sys) from e
+        
+    def get_usvisa_input_data_frame(self)-> DataFrame:
+        """
+        This function converts dictionary from get_usvisa_data_as_dict into a pandas dataframe
+        """
+        try:
+            
+            usvisa_input_dict = self.get_usvisa_data_as_dict()
+            return DataFrame(usvisa_input_dict)
+        
+        except Exception as e:
+            raise USvisaException(e, sys) from e
 
 class USvisaClassifier:
     def __init__(self,prediction_pipeline_config: USvisaPredictorConfig = USvisaPredictorConfig(),) -> None:
@@ -97,7 +96,7 @@ class USvisaClassifier:
         except Exception as e:
             raise USvisaException(e, sys)
 
-    def predict(self, dataframe) -> str:
+    def predict(self, df:DataFrame) -> str:
         """
         This is the method of USvisaClassifier
         Returns: Prediction in string format
@@ -108,7 +107,7 @@ class USvisaClassifier:
                 bucket_name=self.prediction_pipeline_config.model_bucket_name,
                 model_path=self.prediction_pipeline_config.model_file_path,
             )
-            result =  model.predict(dataframe)
+            result =  model.predict(df)
             
             return result
         

@@ -57,7 +57,7 @@ os.getenv(MONGODB_URL_KEY)
 
 ```run this command in gitbash to set MONGODB_URL
 
-export MONGODB_URL= "mongodb+srv://username:password@cluster0.ppivwau.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+export MONGODB_URL="mongodb+srv://username:password@cluster0.ppivwau.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
 export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
@@ -93,7 +93,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 2. AmazonEC2FullAccess
 
 ## 3. Create ECR repo to store/save docker image
-- Save the URI: 136566696263.dkr.ecr.us-east-1.amazonaws.com/mlproject
+- Save the URI: 637423357032.dkr.ecr.us-east-1.amazonaws.com/usvisa_ecr
 
 ## 4. Create EC2 machine (Ubuntu)
 

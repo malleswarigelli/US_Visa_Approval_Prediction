@@ -64,9 +64,9 @@ MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
 MODEL EVALUATION related constant start with MODEL_EVALUATION var name
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_BUCKET_NAME = "usvisamodel2024"
+MODEL_BUCKET_NAME = "usvisamodel24"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
 
 APP_HOST = "0.0.0.0"
-APP_PORT = 8080
+APP_PORT = 1111

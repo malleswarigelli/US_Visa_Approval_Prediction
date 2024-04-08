@@ -99,7 +99,7 @@ async def predictRouteClient(request: Request):
 
         model_predictor = USvisaClassifier()
 
-        value = model_predictor.predict(dataframe=usvisa_df)[0]
+        value = model_predictor.predict(df=usvisa_df)[0]
 
         status = None
         if value == 1:
