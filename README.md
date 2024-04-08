@@ -21,7 +21,11 @@
 - Ubuntu: provides a reliable and stable operating system environment for hosting your project's infrastructure, such as EC2 instances or GitHub Action Runners.
 By combining these technologies, the US Visa Approval Prediction project aims to develop a reliable and efficient machine learning model that can assist in predicting the outcome of US visa applications, streamlining the visa approval process, and improving decision-making.
 
-# Workflow
+# Flow of End to End robust automatic pipeline:
+![USVisa_End to End_Architexture drawio](https://github.com/malleswarigelli/US_Visa_Approval_Prediction/assets/84688050/82c44fc7-ebf3-420c-95b3-4f705c95b3c4)
+
+
+
 1) Training pipeline is made to ingest data from MongoDB, validate using Evidently, transform data for feature engineering, train and evaluate multiple ML classification models, fine tune and select the model giving best metrics, stored the final best trained mdoel into AWS S3 bucket for making predictions
 2) Prediction pipeline is made to ingest new or unseen data from user or from MongoDB, transform new data with preprocessing.pkl from training pipeline and make predictions with the best trainined model saved in AWS S3. 
 3) Deployment: containerize the application using Docker, store docker image in AWS ECR repository for easy deployment and scalability
